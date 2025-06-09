@@ -41,7 +41,7 @@
 
 ![Clipped Signal](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/images/3.png)
 
-🎧 [Original Audio Sample](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/2.vad_croped.mav)
+🎧 [Original Audio Sample](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/2.vad_croped.mov)
 
 ## 3. 📈 Pre-Emphasis
 
@@ -62,7 +62,7 @@ $$
 
 ![Pre-emphasis](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/images/4.png)
 
-🎧 [Pre-emphasized Audio](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/3.preempha.mav)
+🎧 [Pre-emphasized Audio](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/3.preempha.mov)
 
 ## 4. 🧩 Splitting the Audio
 
@@ -83,7 +83,7 @@ $$
 **Window Function:**
 
 $$
-w(n) = 0.5 \left(1 - \cos\left(\frac{2\pi n}{N}\right)\right),\quad 0 \leq n \leq N
+w(n) = 0.5 \left(1 - \cos\left({2\pi nN}\right)\right),\quad 0 \leq n \leq N
 $$
 
 **Windowed Frame Sequence:**
@@ -145,6 +145,8 @@ $$
 * Audio can be **partially reconstructed** from MFCCs with acceptable quality loss.
 
 <!-- 🎧 [Reconstructed Audio](https://user-images.githubusercontent.com/115212881/198025434-f1d60eb5-5f70-449c-9f84-c630980dee05.mov) -->
+
+🎧 [Reconstructed Audio](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/4.reconstructed.mov)
 
 ## 📜 License
 
