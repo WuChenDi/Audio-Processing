@@ -18,7 +18,7 @@
 
 ![Original Signal](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/images/1.png)
 
-🎧 [Original Audio Sample](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/mmmm.mov)
+<audio controls src="https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/mmmm.mov"></audio>
 
 ## 2. 🔍 Voice Activity Detection (VAD) & Clipping
 
@@ -41,7 +41,7 @@
 
 ![Clipped Signal](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/images/3.png)
 
-🎧 [Original Audio Sample](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/2.vad_croped.mov)
+<audio controls src="https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/2.vad_croped.mov"></audio>
 
 ## 3. 📈 Pre-Emphasis
 
@@ -62,7 +62,7 @@ $$
 
 ![Pre-emphasis](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/images/4.png)
 
-🎧 [Pre-emphasized Audio](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/3.preempha.mov)
+<audio controls src="https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/3.preempha.mov"></audio>
 
 ## 4. 🧩 Splitting the Audio
 
@@ -144,9 +144,7 @@ $$
 
 * Audio can be **partially reconstructed** from MFCCs with acceptable quality loss.
 
-<!-- 🎧 [Reconstructed Audio](https://user-images.githubusercontent.com/115212881/198025434-f1d60eb5-5f70-449c-9f84-c630980dee05.mov) -->
-
-🎧 [Reconstructed Audio](https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/4.reconstructed.mov)
+<audio controls src="https://raw.githubusercontent.com/WuChenDi/Audio-Processing/main/audios/4.reconstructed.mov"></audio>
 
 ## 📜 License
 
